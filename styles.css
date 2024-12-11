@@ -67,7 +67,7 @@ max-width: 45%;
 .about{
     flex: 1;
     padding-right: 20px;
-    background-color: rgb(59, 25, 3);
+    background-image:;
 
 
 
@@ -88,6 +88,8 @@ max-width: 45%;
     background-color: white;
     border: 1px solid #ccc;
     align-items: center;
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: 300px;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

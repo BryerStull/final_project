@@ -67,8 +67,12 @@ max-width: 45%;
 .about{
     flex: 1;
     padding-right: 20px;
-    background-image:;
-
+    background-size: cover;
+    background-position: center ;
+    background-image: url("beans.jpg");
+    background-color: (255,255,255,0.6);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
 
 
 }

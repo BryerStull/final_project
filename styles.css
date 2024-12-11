@@ -35,12 +35,12 @@ max-width: 50%;
 .hero_content h2{
 font-size: 2.5rem;
 margin-bottom: 1rem;
-color: black;
+color: rgb(255, 255, 255);
 }
 .hero_content p{
 font-size: 1.2rem;
 margin-bottom: 1.5rem;
-color: black;
+color: rgb(255, 255, 255);
 
 }
 .hero_button{

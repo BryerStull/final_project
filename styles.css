@@ -21,7 +21,7 @@ color: orange;
 }
 .hero{
     background-color: rgba(155, 155, 155, 0.212);
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
@@ -47,8 +47,8 @@ color: rgb(255, 255, 255);
 .hero_button{
 display: inline-block;
 padding: 0.8rem 1.5rem;
-background-color: brown;
-color: chartreuse;
+background-color: rgb(165, 106, 42);
+color: rgb(236, 231, 224);
 border-radius: 5px;
 
 
@@ -64,6 +64,12 @@ max-width: 45%;
     width: 100%;
     border-radius: 8px;
 }
+.links{
+    flex: 1;
+    padding-right: 20px;
+    background-color: aliceblue;
+}
+
 footer{
     background-color: orange;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

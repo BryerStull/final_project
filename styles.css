@@ -29,7 +29,8 @@ color: orange;
 
 }
 .hero_content{
-max-width: 50%;
+flex: 1;
+padding-right: 20px;
 
 }
 .hero_content h2{

@@ -78,9 +78,9 @@ max-width: 45%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Allows items to wrap onto the next line if not enough space */
-    justify-content: space-between; /* Adjusts spacing to maintain layout even at different screen sizes */
+    justify-content: space-around; /* Adjusts spacing to maintain layout even at different screen sizes */
     align-items: center;
-    max-width: 100%; /* Allows more space for the cards */
+    padding: 20px; /* Allows more space for the cards */
     margin: 20px;
 }
 

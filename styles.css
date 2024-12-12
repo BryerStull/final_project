@@ -66,7 +66,7 @@ max-width: 45%;
     border-radius: 8px;
 }
 .about{
-    background-color: rgba(10, 6, 6, 0.212);
+    background-color: rgba(155, 155, 155, 0.212);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -75,15 +75,32 @@ max-width: 45%;
 
 
 }
-.about_text h2{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: rgb(255, 255, 255);
+.about_content{
+flex: 1;
+padding-left: 20px;
+
 }
-.about_text p{
-    font-size: 1.2rem;
+.about_content h2{
+font-size: 2.5rem;
+margin-bottom: 1rem;
+color: rgb(255, 255, 255);
+}
+.hero_content p{
+font-size: 1.2rem;
 margin-bottom: 1.5rem;
 color: rgb(255, 255, 255);
+
+
+
+}
+
+.about_image{
+max-width: 45%;
+
+}
+.hero_image img{
+    width: 100%;
+    border-radius: 8px;
 }
 
 /* copied from project 2 */
@@ -143,9 +160,9 @@ color: rgb(255, 255, 255);
 }
 
 footer{
-    background-color: orange;
+    background-color: rgb(23, 21, 18);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 padding: 20px;
-color: cornflowerblue;
+color: rgb(255, 255, 255);
 
 }

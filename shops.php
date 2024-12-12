@@ -2,8 +2,8 @@
 // copied from index4 from demos
 $host = 'localhost'; 
 $dbname = 'final'; 
-$user = 'root'; 
-$pass = 'root';
+$user = 'bryer'; 
+$pass = 'bryer';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
@@ -31,10 +31,9 @@ if (isset($_GET['search']) && !empty($_GET['search'])) {
 // Handle form submissions
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (
-       if (isset($_POST['ShopName']) && isset($_POST['Address']) && isset($_POST['City']) && 
-    isset($_POST['State']) && isset($_POST['ZipCode']) && isset($_POST['ContactInfo']) && 
-    isset($_POST['WebsiteURL']) && isset($_POST['AverageRating']) && isset($_POST['RoasteryID'])
-
+        isset($_POST['ShopName']) && isset($_POST['Address']) && isset($_POST['City']) && 
+        isset($_POST['State']) && isset($_POST['ZipCode']) && isset($_POST['ContactInfo']) && 
+        isset($_POST['WebsiteURL']) && isset($_POST['AverageRating']) && isset($_POST['RoasteryID'])
     ) {
         // Insert new entry
         $shop_name = htmlspecialchars($_POST['ShopName']);

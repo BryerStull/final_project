@@ -30,8 +30,15 @@ nav ul {
 }
 nav ul li a{
 color: #ff7b54;
+font-weight: bold;
+padding: 10 px 15px;
+border-radius: 5;
+transition: backround-color 0.3s;
 
-
+}
+nav ul li a:hover{
+    background-color: #ffb400;
+    color: #043927;
 }
 .hero{
     background-color: #043927;

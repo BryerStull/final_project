@@ -81,9 +81,9 @@ padding-left: 20px;
 
 }
 .about_content h2{
-font-size: 2.5rem;
-margin-bottom: 1rem;
-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(255, 255, 255);
 }
 .about_content p{
 font-size: 1.2rem;

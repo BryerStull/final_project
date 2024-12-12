@@ -28,6 +28,11 @@ nav ul {
     gap: 20px; 
     color: #ffffff;
 }
+nav ul li a{
+color: #ff7b54;
+
+
+}
 .hero{
     background-color: #043927;
     display: flex;
@@ -114,7 +119,7 @@ max-width: 45%;
 .link_card h3 {
     margin-bottom: 10px 0;
     font-size: 1.5rem;
-    color: #343a40;
+    color: #043927;
 }
 
 .link_card p {
@@ -131,12 +136,13 @@ max-width: 45%;
 }
 .link_button:hover{
     background-color: #ffb400;
+    color: #043927;
 }
 
 footer{
-    background-color: #343a40;
+    background-color: #043927;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 padding: 20px;
-color: rgb(255, 255, 255);
+color: #ffffff;
 
 }

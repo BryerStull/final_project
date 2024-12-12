@@ -66,14 +66,12 @@ max-width: 45%;
     border-radius: 8px;
 }
 .about{
-    flex: 1;
-    padding-right: 20px;
-    background-size: cover;
-    background-position: center ;
-    background-image: url("beans.jpg");
-    background-color: (255,255,255,0.6);
-    backdrop-filter: blur(8px);
-    border-radius: 8px;
+    background-color: rgba(10, 6, 6, 0.212);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
 
 
 }

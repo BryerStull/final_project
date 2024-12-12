@@ -22,6 +22,7 @@ color: rgb(255, 255, 255);
 .hero{
     background-color: rgba(155, 155, 155, 0.212);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
@@ -124,6 +125,7 @@ color: rgb(255, 255, 255);
 .link_card h3 {
     margin-bottom: 10px 0;
     font-size: 1.5rem;
+    color: black;
 }
 
 .link_card p {

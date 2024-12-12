@@ -85,7 +85,7 @@ font-size: 2.5rem;
 margin-bottom: 1rem;
 color: rgb(255, 255, 255);
 }
-.hero_content p{
+.about_content p{
 font-size: 1.2rem;
 margin-bottom: 1.5rem;
 color: rgb(255, 255, 255);
@@ -95,12 +95,15 @@ color: rgb(255, 255, 255);
 }
 
 .about_image{
-max-width: 45%;
+max-width: 40%;
+height: auto;
 
 }
-.hero_image img{
+.about_image img{
     width: 100%;
+    height: auto;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 /* copied from project 2 */

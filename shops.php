@@ -2,8 +2,8 @@
 // copied from index4 from demos
 $host = 'localhost'; 
 $dbname = 'final'; 
-$user = 'bryer'; 
-$pass = 'bryer';
+$user = 'root'; 
+$pass = 'mysql';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";

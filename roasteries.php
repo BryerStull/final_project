@@ -1,7 +1,7 @@
 <?php
 // copied from index4 from demos
 $host = 'localhost'; 
-$dbname = 'books'; 
+$dbname = 'final'; 
 $user = 'root'; 
 $pass = 'mysql';
 $charset = 'utf8mb4';

@@ -1,9 +1,9 @@
 <?php
 // copied from index4 from demos
 $host = 'localhost'; 
-$dbname = 'books'; 
+$dbname = 'final'; 
 $user = 'root'; 
-$pass = 'root';
+$pass = 'mysql';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";

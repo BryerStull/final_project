@@ -30,7 +30,12 @@ if (isset($_GET['search']) && !empty($_GET['search'])) {
 
 // Handle form submissions
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_POST['ShopName']) && isset($_POST['Address']) && isset($_POST['City'])) && isset($_POST['State']) && isset($_POST['ZipCode'])) && isset($_POST['ContactInfo']) && isset($_POST['WebsiteURL'])) && isset($_POST['AverageRating']) && isset($_POST['RoasteryID'])) {
+    if (
+       if (isset($_POST['ShopName']) && isset($_POST['Address']) && isset($_POST['City']) && 
+    isset($_POST['State']) && isset($_POST['ZipCode']) && isset($_POST['ContactInfo']) && 
+    isset($_POST['WebsiteURL']) && isset($_POST['AverageRating']) && isset($_POST['RoasteryID'])
+
+    ) {
         // Insert new entry
         $shop_name = htmlspecialchars($_POST['ShopName']);
         $address = htmlspecialchars($_POST['Address']);
@@ -48,13 +53,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt_insert->execute([
         'ShopName' => $shop_name,
         'Address' => $address,
-        'City' => $city]);
+        'City' => $city,
         'State' => $state,
         'ZipCode' => $zip_code,
-        'ContactInfo' => $contact_info])
+        'ContactInfo' => $contact_info,
         'WebsiteURL' => $website_url,
         'AverageRating' => $average_rating,
-        'RoasteryID' => $roastery_id])
+        'RoasteryID' => $roastery_id]);
     } elseif (isset($_POST['delete_id'])) {
         // Delete an entry
         $delete_id = (int) $_POST['delete_id'];
